@@ -1,9 +1,9 @@
 import styled from "styled-components";
 
 export const InputContainer = styled.div`
-    width: 100%;
+    min-width: 100%;
     height: 75px;
-    background-color: #AAFFAA;
+    background-image: #AAFFAA;
     
     display: flex;
     align-items: center;
@@ -15,7 +15,7 @@ export const InputContainer = styled.div`
     input{
         width: 100%;
         height: 75px;
-        background-color: #00FFFF;
+        background-image: linear-gradient(#007991, #78ffd6);
         border: 0;
         padding: 0 10px;
         font-size: 24px;

@@ -6,7 +6,7 @@ import { useState } from 'react'
 
 const App = () => {
 
-  const [currentNumber, setCurrentNumber] = useState(0)
+  const [currentNumber, setCurrentNumber] = useState('0')
   const [firstNumber, setFirstNumber] = useState('0')
   const [operation, setOperation] = useState('')
 

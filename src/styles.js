@@ -3,7 +3,7 @@ import styled from 'styled-components'
 export const Container = styled.div`
     width: 100%;
     height: 100vh;
-    background-image: linear-gradient(#06beb6, #49e0f5);
+    background-image: linear-gradient(#000046, #49e0f5);
 
     display: flex;
     align-items: center;
@@ -11,7 +11,8 @@ export const Container = styled.div`
 `
 export const Content = styled.div`
     background-color: #FFF;
-    max-width: 50%;
+    max-width: 300px;
+    position: relative;
 `
 export const Row = styled.div`
     display: flex;
