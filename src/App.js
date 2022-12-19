@@ -16,7 +16,7 @@ const App = () => {
   }
 
   const handleAddNumber = (number) => {
-    setCurrentNumber(prev => `${prev === '0' ? '' : prev}${number}`)
+    setCurrentNumber(prev => `${prev === '0' ? '' : prev} ${number}`)
   }
 
   const handleSumNumbers = () => {
